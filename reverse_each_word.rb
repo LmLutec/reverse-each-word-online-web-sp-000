@@ -6,5 +6,5 @@ binding.pry
     new_array = sentence.map do |word|
       word.reverse 
   end 
-  
+  new_array.join(" ")
 end 

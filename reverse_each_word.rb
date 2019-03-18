@@ -1,5 +1,5 @@
 def reverse_each_word(sentence)
-  sentence.map do |word|
-    word.reverse
+  sentence.each do |word|
+    new array<< word.reverse
   end 
 end 
